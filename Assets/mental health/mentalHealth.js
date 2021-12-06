@@ -101,6 +101,7 @@ function showPanel(placeResult) {
     if (placeResult.photos) {
         let placePhoto = document.getElementById("place_photo");
         placePhoto.src = placeResult.photos[0].getUrl();
+        placePhoto.alt = "photo of mental health center"
     } else {
         placePhoto.src = "";
         placePhoto.alt = "This has no photo";
