@@ -141,7 +141,7 @@
   overflow: auto;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 1260px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width:1260px) {
   #oriText {
     max-width: 300px;
@@ -319,7 +319,7 @@ footer {
   width: 100%;
   height: 40px;
   text-align: center;
-  background-color: DarkSalmon;
+  background-color: #FFA082;
 }
 
 #back {
