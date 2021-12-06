@@ -1,0 +1,121 @@
+/* Three image containers  */
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'chewy';
+  font-size: 2vw;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+h2 {
+  font-family: 'chewy';
+  font-size: 2vw;
+  color: black;
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.dog {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+}
+
+p {
+  font-family: 'chewy';
+  font-size: 2vw;
+  color: black;
+  padding: 10px;
+  text-align: right;
+  position: absolute;
+  top: 26%;
+  left: 20%;
+}
+
+.depression {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  padding:  30px;
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+}
+
+.sleeping {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  padding:  30px;
+}
+
+.stress {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  padding:  30px;
+}
+
+.eating {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  padding:  30px;
+}
+
+.anxiety {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  padding:  30px;
+}
+
+.fun {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  padding:  30px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+  position: absolute;
+  width: 100%;
+  font-weight: bold;
+  top: 100%;
+}
+
+#caps {
+  color: white;
+  font-size: 1.2vw;
+}
+
+

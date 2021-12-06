@@ -1,0 +1,88 @@
+.header {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'chewy';
+  font-size: 2vw;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+h2 {
+  font-family: 'chewy';
+  font-size: 2vw;
+  color: black;
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+span {
+  font-family: 'rubik';
+  font-size: 1.2vw;
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+}
+
+#map {
+  position: absolute;
+  right: 0%;
+  width: 75%;
+  height: 100%;
+}
+
+#panel {
+  position: absolute;
+  left: 0%;
+  width: 25%;
+  height: 100%;
+  max-width: 250px;
+  padding: 20px;
+  transition: all .5s ease-out;
+}
+
+
+#mental_health_panel {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+#place_photo {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+}
+
+#place_website {
+  max-width: 10px;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: DarkSalmon;
+}
+
+#back {
+  color: white;
+  font-weight:  bold;
+  font-size: 1.5vw;
+  position: relative;
+  top: 10%;
+}

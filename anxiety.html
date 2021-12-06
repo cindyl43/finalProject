@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="Assets/disorder.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik&display=swap" rel="stylesheet">
+    <title>Depression</title>
+    <!-- header -->
+    <img class="header" src="Assets/head.jpg" alt="colorful header photo" >
+    <!-- page hyperlink-->
+    <a href="depression.html" id="depression">DEPRESSION</a>
+    <a href="sleepingDisorder.html" id="sleep">SLEEPING DISORDER</a>
+    <a href="stress.html" id="stress">STRESS DISORDER</a>
+    <a href="eatingDisorder.html" id="eat">EATING DISORDER</a>
+    <a href="anxiety.html" id="anxiety"> ANXIETY DISORDER</a>
+    <a href="funTime.html" id="fun">FUN TIME</a>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="Assets/main.js"></script>
+  </head>
+
+
+  <body>
+    <div class="heading">
+      <h1 onclick="ori()">ANXIETY DISORDER</h1>
+      <p>Click on the circles to learn more about anxiety disorder</p>
+    </div>
+
+    <div id="oriText">
+      <h2>Anxiety Disorders:</h2>
+      <br>
+      <span>Anxiety is a feeling of fear, dread, and uneasiness. It might cause you to sweat, feel restless and tense, and have a rapid heartbeat. It can be a normal reaction to stress. For example, you might feel anxious when faced with a difficult problem at work, before taking a test, or before making an important decision. It can help you to cope. The anxiety may give you a boost of energy or help you focus. But for people with anxiety disorders, the fear is not temporary and can be overwhelming.</span>
+      <br>
+      <br>
+      <span>Anxiety disorders are conditions in which you have anxiety that does not go away and can get worse over time. The symptoms can interfere with daily activities such as job performance, schoolwork, and relationships.</span>
+    </div>
+
+    <div id="mythT" style="display:none;">
+    </div>
+
+    <div id="sympT" style="display:none;">
+    </div>
+
+    <div id="colT" style="display:none;">
+    </div>
+
+    <div id="selfT" style="display:none;">
+    </div>
+
+    <div id="helpT" style="display:none;">
+      <h2>PLEASE ask for help immediately, if:</h2>
+      <br>
+      <strong>You are:</strong>
+      <br>
+      <ol>
+        <li>Having suicidal thoughts;</li>
+        <li>Might harm yourself or others;</li>
+        <li>Feeling physically uncomfortable.</li>
+      </ol>
+      <br>
+      <strong>Carnegie Mellon on campus resources:</strong>
+      <br>
+      <ol>
+        <li>Call Counseling and Psychological Services (CaPS) at 412-268-2922;</li>
+        <li>Reach out to your advisor;</li>
+        <li>Schedule a meeting with University Health Services (UHS) for stress consultations, substance use & recovery services, and health advice at 421-268-2157.</li>
+      </ol>
+      <br>
+      <strong>Click <a href="mentalHealth.html">here</a> to find the nearest mental health facility to you!</strong>
+      <br>
+      <br>
+      <strong>We are here! Let us help. </strong>
+    </div>
+
+    <img src="Assets/box.jpg" id="textbox" alt="blank box for text display">
+    <img src="Assets/anxiety/myth_a.jpg" id="myth" alt="circle leading to the text on myth of eating disorder" onclick="myth()">
+    <img src="Assets/anxiety/symp_a.jpg" id="symp" alt="circle leading to the text on symptoms of eating disorder" onclick="symptom()">
+    <img src="Assets/anxiety/college_a.jpg" id="col" alt="circle leading to the text on eating disorder among college students" onclick="college()">
+    <img src="Assets/anxiety/self_a.jpg" id="self" alt="circle leading to the text on self-help tips of eating disorder" onclick="self()">
+    <img src="Assets/anxiety/help_a.jpg" id="help" alt="circle leading to the text on how to ask for help at CMU if you suspect yourself to be have eating disorder" onclick="help()">
+  </body>
+
+  <footer>
+    <a href="index.html" id="back"> Back to Homepage</a>
+  </footer>
+</html>

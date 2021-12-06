@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="Assets/disorder.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik&display=swap" rel="stylesheet">
+    <title>Stress Disorder</title>
+    <!-- header -->
+    <img class="header" src="Assets/head.jpg" alt="colorful header photo" >
+    <!-- page hyperlink-->
+    <a href="depression.html" id="depression">DEPRESSION</a>
+    <a href="sleepingDisorder.html" id="sleep">SLEEPING DISORDER</a>
+    <a href="stress.html" id="stress">STRESS DISORDER</a>
+    <a href="eatingDisorder.html" id="eat">EATING DISORDER</a>
+    <a href="anxiety.html" id="anxiety"> ANXIETY DISORDER</a>
+    <a href="funTime.html" id="fun">FUN TIME</a>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1 onclick="ori()">STRESS DISORDER</h1>
+      <p>Click on the circles to learn more about stress disorder</p>
+    </div>
+
+    <div id="oriText">
+      <h2>Stress and Trauma:</h2>
+      <br>
+      <span>Emotional and psychological trauma is the result of extraordinarily stressful events that shatter your sense of security, making you feel helpless in a dangerous world. Psychological trauma can leave you struggling with upsetting emotions, memories, and anxiety that won’t go away. It can also leave you feeling numb, disconnected, and unable to trust other people.</span>
+      <br>
+      <br>
+      <span>Traumatic experiences often involve a threat to life or safety, but any situation that leaves you feeling overwhelmed and isolated can result in trauma, even if it doesn’t involve physical harm. It’s not the objective circumstances that determine whether an event is traumatic, but your subjective emotional experience of the event. The more frightened and helpless you feel, the more likely you are to be traumatized.</span>
+    </div>
+
+    <div id="mythT" style="display:none;">
+    </div>
+
+    <div id="sympT" style="display:none;">
+    </div>
+
+    <div id="colT" style="display:none;">
+    </div>
+
+    <div id="selfT" style="display:none;">
+    </div>
+
+    <div id="helpT" style="display:none;">
+      <h2>PLEASE ask for help immediately, if:</h2>
+      <br>
+      <strong>You are:</strong>
+      <br>
+      <ol>
+        <li>Having suicidal thoughts;</li>
+        <li>Might harm yourself or others;</li>
+        <li>Feeling physically uncomfortable.</li>
+      </ol>
+      <br>
+      <strong>Carnegie Mellon on campus resources:</strong>
+      <br>
+      <ol>
+        <li>Call Counseling and Psychological Services (CaPS) at 412-268-2922;</li>
+        <li>Reach out to your advisor;</li>
+        <li>Schedule a meeting with University Health Services (UHS) for stress consultations, substance use & recovery services, and health advice at 421-268-2157.</li>
+      </ol>
+      <br>
+      <strong>Click <a href="mentalHealth.html">here</a> to find the nearest mental health facility to you!</strong>
+      <br>
+      <br>
+      <strong>We are here! Let us help. </strong>
+    </div>
+
+    <img src="Assets/box.jpg" id="textbox" alt="blank box for text display">
+    <img src="Assets/stress/myth_sd.jpg" id="myth" alt="circle leading to the text on myth of stress disorder" onclick="myth()">
+    <img src="Assets/stress/symp_sd.jpg" id="symp" alt="circle leading to the text on symptoms of stress disorder" onclick="symptom()">
+    <img src="Assets/stress/college_sd.jpg" id="col" alt="circle leading to the text on stress disorder among college students" onclick="college()">
+    <img src="Assets/stress/self_sd.jpg" id="self" alt="circle leading to the text on self-help tips of stress disorder" onclick="self()">
+    <img src="Assets/stress/help_sd.jpg" id="help" alt="circle leading to the text on how to ask for help at CMU if you suspect yourself to be have stress disorder" onclick="help()">
+  </body>
+
+  <footer>
+    <a href="index.html" id="back"> Back to Homepage</a>
+  </footer>
+</html>
+

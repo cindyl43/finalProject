@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="Assets/mental health/mentalHealth.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik&display=swap" rel="stylesheet">
+    <title>Mental Health Finder</title>
+    <!-- header -->
+    <img class="header" src="Assets/header.jpg" alt="colorful header photo">
+    <h1> “If we start being honest about our pain, our anger, and our shortcomings instead of pretending they don’t exist, then maybe we’ll leave the world a better place than we found it.”</h1>
+    <h2> -- Russell Wilson</h2>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- javascript -->
+    <script src="Assets/mental health/mentalHealth.js"></script>
+</head>
+
+<body>
+  <div id="mental_health_panel">
+    <!-- for drawing map -->
+    <div id="map"></div>
+    <!-- sidebar panel for showing place details -->
+    <div id="panel">
+      <span id="place_name"></span>
+      <br>
+      <p id="place_address"></p>
+      <br>
+      <a id="place_website"></a>
+      <br>
+      <img id="place_photo"></img>
+    </div>
+  </div>
+
+  <!-- google geolocation api -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSZb1eoBm3_cHHMMh0BWritIYxjmOna5k&libraries=places&callback=initMap"></script>
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script> -->
+</body>
+
+  <footer>
+    <a href="index.html" id="back"> Back to Homepage</a>
+  </footer>
+</html>
+
+
+</html>
